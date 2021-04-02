@@ -1,13 +1,26 @@
+.backgroundBar {
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  top: 60%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
 }
 
 .maxWidthWrapper {
+  isolation: isolate;
+  max-width: 1024px;
+  padding: 32px;
 }
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -24,7 +37,12 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  height: 800px;
+  right: 0px;
+  top: 160px;
 }
 
 .controlColumn {
+  max-width: 50%;
 }
